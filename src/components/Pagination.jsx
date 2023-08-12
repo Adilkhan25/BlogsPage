@@ -4,7 +4,7 @@ import { AppContext } from "../context/AppContext";
 const Pagination = ()=>{
     const {page, totalPage, pageChangeHandler} = useContext(AppContext);
     return( 
-       <div className="flex justify-evenly w-full py-2 sticky z-50 bg-gray-300 bottom-0 border-t-[2px] border-gray-400">
+       <div className="flex justify-evenly w-full  py-2 sticky z-50 bg-gray-300 bottom-0 border-t-[2px] border-gray-400">
            <div className="flex gap-x-2">
            {
             page>1 &&
